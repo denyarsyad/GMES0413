@@ -401,6 +401,8 @@
             this.pctSave.TabIndex = 33;
             this.pctSave.Click += new System.EventHandler(this.pctSave_Click);
             this.pctSave.MouseDown += new System.Windows.Forms.MouseEventHandler(this.pctSave_MouseDown);
+            this.pctSave.MouseLeave += new System.EventHandler(this.pctSave_MouseLeave);
+            this.pctSave.MouseHover += new System.EventHandler(this.pctSave_MouseHover);
             this.pctSave.MouseUp += new System.Windows.Forms.MouseEventHandler(this.pctSave_MouseUp);
             // 
             // lblStatus

@@ -502,7 +502,7 @@
             // 
             // RENT_ID
             // 
-            this.RENT_ID.Caption = "REG ID";
+            this.RENT_ID.Caption = "Reg ID";
             this.RENT_ID.FieldName = "RENT_ID";
             this.RENT_ID.Name = "RENT_ID";
             this.RENT_ID.Visible = true;
@@ -517,7 +517,7 @@
             // 
             // RENT_DATE
             // 
-            this.RENT_DATE.Caption = "DATE";
+            this.RENT_DATE.Caption = "Date";
             this.RENT_DATE.FieldName = "RENT_DATE";
             this.RENT_DATE.Name = "RENT_DATE";
             this.RENT_DATE.Visible = true;
@@ -532,7 +532,7 @@
             // 
             // RENT_TIME
             // 
-            this.RENT_TIME.Caption = "TIME";
+            this.RENT_TIME.Caption = "Time";
             this.RENT_TIME.FieldName = "RENT_TIME";
             this.RENT_TIME.Name = "RENT_TIME";
             this.RENT_TIME.Visible = true;
@@ -547,7 +547,7 @@
             // 
             // USER_ID
             // 
-            this.USER_ID.Caption = "USER NAME";
+            this.USER_ID.Caption = "User Name";
             this.USER_ID.FieldName = "USER_ID";
             this.USER_ID.Name = "USER_ID";
             this.USER_ID.Visible = true;
@@ -562,7 +562,7 @@
             // 
             // DEPT_NAME
             // 
-            this.DEPT_NAME.Caption = "DEPT";
+            this.DEPT_NAME.Caption = "Dept";
             this.DEPT_NAME.FieldName = "DEPT_NAME";
             this.DEPT_NAME.Name = "DEPT_NAME";
             this.DEPT_NAME.Visible = true;
@@ -587,7 +587,7 @@
             // 
             // DRIVER_ID
             // 
-            this.DRIVER_ID.Caption = "DRIVER";
+            this.DRIVER_ID.Caption = "Driver";
             this.DRIVER_ID.ColumnEdit = this.repDriver;
             this.DRIVER_ID.FieldName = "DRIVER_ID";
             this.DRIVER_ID.Name = "DRIVER_ID";
@@ -617,7 +617,7 @@
             // 
             // CONTACT
             // 
-            this.CONTACT.Caption = "CONTACT";
+            this.CONTACT.Caption = "Contact";
             this.CONTACT.FieldName = "CONTACT";
             this.CONTACT.Name = "CONTACT";
             this.CONTACT.Visible = true;
@@ -643,7 +643,7 @@
             // 
             // DETAIL_CAR
             // 
-            this.DETAIL_CAR.Caption = "CAR DETAIL";
+            this.DETAIL_CAR.Caption = "Car Detail";
             this.DETAIL_CAR.ColumnEdit = this.repCar;
             this.DETAIL_CAR.FieldName = "DETAIL_CAR";
             this.DETAIL_CAR.Name = "DETAIL_CAR";
@@ -673,7 +673,7 @@
             // 
             // SERIAL_NO
             // 
-            this.SERIAL_NO.Caption = "SERIAL NO";
+            this.SERIAL_NO.Caption = "Serial No";
             this.SERIAL_NO.FieldName = "SERIAL_NO";
             this.SERIAL_NO.Name = "SERIAL_NO";
             this.SERIAL_NO.Visible = true;
@@ -688,7 +688,7 @@
             // 
             // COLOR
             // 
-            this.COLOR.Caption = "COLOR";
+            this.COLOR.Caption = "Color";
             this.COLOR.FieldName = "COLOR";
             this.COLOR.Name = "COLOR";
             this.COLOR.Visible = true;
@@ -703,7 +703,7 @@
             // 
             // SEQ
             // 
-            this.SEQ.Caption = "SEQ";
+            this.SEQ.Caption = "Seq";
             this.SEQ.FieldName = "SEQ";
             this.SEQ.Name = "SEQ";
             this.SEQ.Visible = true;
@@ -718,7 +718,7 @@
             // 
             // DESTINATION
             // 
-            this.DESTINATION.Caption = "DESTINATION";
+            this.DESTINATION.Caption = "Destination";
             this.DESTINATION.FieldName = "DESTINATION";
             this.DESTINATION.Name = "DESTINATION";
             this.DESTINATION.Visible = true;
@@ -733,7 +733,7 @@
             // 
             // PASSENGER
             // 
-            this.PASSENGER.Caption = "PASSENGERS";
+            this.PASSENGER.Caption = "Passengers";
             this.PASSENGER.FieldName = "PASSENGER";
             this.PASSENGER.Name = "PASSENGER";
             this.PASSENGER.Visible = true;
@@ -748,7 +748,7 @@
             // 
             // PURPOSES
             // 
-            this.PURPOSES.Caption = "PURPOSE";
+            this.PURPOSES.Caption = "Purpose";
             this.PURPOSES.FieldName = "PURPOSES";
             this.PURPOSES.Name = "PURPOSES";
             this.PURPOSES.Visible = true;
@@ -763,7 +763,7 @@
             // 
             // START_DATE
             // 
-            this.START_DATE.Caption = "START DATE";
+            this.START_DATE.Caption = "Start Date";
             this.START_DATE.FieldName = "START_DATE";
             this.START_DATE.Name = "START_DATE";
             this.START_DATE.Visible = true;
@@ -778,7 +778,7 @@
             // 
             // END_DATE
             // 
-            this.END_DATE.Caption = "END DATE";
+            this.END_DATE.Caption = "End Date";
             this.END_DATE.FieldName = "END_DATE";
             this.END_DATE.Name = "END_DATE";
             this.END_DATE.Visible = true;
@@ -793,7 +793,7 @@
             // 
             // HOUR_DURATION
             // 
-            this.HOUR_DURATION.Caption = "DURATION (H)";
+            this.HOUR_DURATION.Caption = "Duration (H)";
             this.HOUR_DURATION.FieldName = "HOUR_DURATION";
             this.HOUR_DURATION.Name = "HOUR_DURATION";
             this.HOUR_DURATION.Visible = true;
@@ -808,7 +808,7 @@
             // 
             // STATUS
             // 
-            this.STATUS.Caption = "STATUS";
+            this.STATUS.Caption = "Status";
             this.STATUS.FieldName = "STATUS";
             this.STATUS.Name = "STATUS";
             this.STATUS.Visible = true;
@@ -921,7 +921,7 @@
             // 
             // W_RENT_ID
             // 
-            this.W_RENT_ID.Caption = "REG ID";
+            this.W_RENT_ID.Caption = "Reg ID";
             this.W_RENT_ID.FieldName = "W_RENT_ID";
             this.W_RENT_ID.Name = "W_RENT_ID";
             this.W_RENT_ID.Visible = true;
@@ -936,7 +936,7 @@
             // 
             // W_RENT_DATE
             // 
-            this.W_RENT_DATE.Caption = "DATE";
+            this.W_RENT_DATE.Caption = "Date";
             this.W_RENT_DATE.FieldName = "W_RENT_DATE";
             this.W_RENT_DATE.Name = "W_RENT_DATE";
             this.W_RENT_DATE.Visible = true;
@@ -951,7 +951,7 @@
             // 
             // W_RENT_TIME
             // 
-            this.W_RENT_TIME.Caption = "TIME";
+            this.W_RENT_TIME.Caption = "Time";
             this.W_RENT_TIME.FieldName = "W_RENT_TIME";
             this.W_RENT_TIME.Name = "W_RENT_TIME";
             this.W_RENT_TIME.Visible = true;
@@ -966,7 +966,7 @@
             // 
             // W_USER_ID
             // 
-            this.W_USER_ID.Caption = "USER NAME";
+            this.W_USER_ID.Caption = "User Name";
             this.W_USER_ID.FieldName = "W_USER_ID";
             this.W_USER_ID.Name = "W_USER_ID";
             this.W_USER_ID.Visible = true;
@@ -981,7 +981,7 @@
             // 
             // W_DEPT_NAME
             // 
-            this.W_DEPT_NAME.Caption = "DEPT";
+            this.W_DEPT_NAME.Caption = "Dept";
             this.W_DEPT_NAME.FieldName = "W_DEPT_NAME";
             this.W_DEPT_NAME.Name = "W_DEPT_NAME";
             this.W_DEPT_NAME.Visible = true;
@@ -1006,7 +1006,7 @@
             // 
             // W_DRIVER_ID
             // 
-            this.W_DRIVER_ID.Caption = "DRIVER";
+            this.W_DRIVER_ID.Caption = "Driver";
             this.W_DRIVER_ID.ColumnEdit = this.repositoryItemLookUpEdit1;
             this.W_DRIVER_ID.FieldName = "W_DRIVER_ID";
             this.W_DRIVER_ID.Name = "W_DRIVER_ID";
@@ -1036,7 +1036,7 @@
             // 
             // W_CONTACT
             // 
-            this.W_CONTACT.Caption = "CONTACT";
+            this.W_CONTACT.Caption = "Contact";
             this.W_CONTACT.FieldName = "W_CONTACT";
             this.W_CONTACT.Name = "W_CONTACT";
             this.W_CONTACT.Visible = true;
@@ -1062,7 +1062,7 @@
             // 
             // W_DETAIL_CAR
             // 
-            this.W_DETAIL_CAR.Caption = "CAR DETAIL";
+            this.W_DETAIL_CAR.Caption = "Car Detail";
             this.W_DETAIL_CAR.ColumnEdit = this.repositoryItemLookUpEdit2;
             this.W_DETAIL_CAR.FieldName = "W_DETAIL_CAR";
             this.W_DETAIL_CAR.Name = "W_DETAIL_CAR";
@@ -1092,7 +1092,7 @@
             // 
             // W_SERIAL_NO
             // 
-            this.W_SERIAL_NO.Caption = "SERIAL NO";
+            this.W_SERIAL_NO.Caption = "Serial No";
             this.W_SERIAL_NO.FieldName = "W_SERIAL_NO";
             this.W_SERIAL_NO.Name = "W_SERIAL_NO";
             this.W_SERIAL_NO.Visible = true;
@@ -1107,7 +1107,7 @@
             // 
             // W_COLOR
             // 
-            this.W_COLOR.Caption = "COLOR";
+            this.W_COLOR.Caption = "Color";
             this.W_COLOR.FieldName = "W_COLOR";
             this.W_COLOR.Name = "W_COLOR";
             this.W_COLOR.Visible = true;
@@ -1122,7 +1122,7 @@
             // 
             // W_SEQ
             // 
-            this.W_SEQ.Caption = "SEQ";
+            this.W_SEQ.Caption = "Seq";
             this.W_SEQ.FieldName = "W_SEQ";
             this.W_SEQ.Name = "W_SEQ";
             this.W_SEQ.Visible = true;
@@ -1137,7 +1137,7 @@
             // 
             // W_DESTINATION
             // 
-            this.W_DESTINATION.Caption = "DESTINATION";
+            this.W_DESTINATION.Caption = "Destination";
             this.W_DESTINATION.FieldName = "W_DESTINATION";
             this.W_DESTINATION.Name = "W_DESTINATION";
             this.W_DESTINATION.Visible = true;
@@ -1152,7 +1152,7 @@
             // 
             // W_PASSENGER
             // 
-            this.W_PASSENGER.Caption = "PASSENGERS";
+            this.W_PASSENGER.Caption = "Passengers";
             this.W_PASSENGER.FieldName = "W_PASSENGER";
             this.W_PASSENGER.Name = "W_PASSENGER";
             this.W_PASSENGER.Visible = true;
@@ -1167,7 +1167,7 @@
             // 
             // W_PURPOSES
             // 
-            this.W_PURPOSES.Caption = "PURPOSE";
+            this.W_PURPOSES.Caption = "Purpose";
             this.W_PURPOSES.FieldName = "W_PURPOSES";
             this.W_PURPOSES.Name = "W_PURPOSES";
             this.W_PURPOSES.Visible = true;
@@ -1182,7 +1182,7 @@
             // 
             // W_START_DATE
             // 
-            this.W_START_DATE.Caption = "START DATE";
+            this.W_START_DATE.Caption = "Start Date";
             this.W_START_DATE.FieldName = "W_START_DATE";
             this.W_START_DATE.Name = "W_START_DATE";
             this.W_START_DATE.Visible = true;
@@ -1197,7 +1197,7 @@
             // 
             // W_END_DATE
             // 
-            this.W_END_DATE.Caption = "END DATE";
+            this.W_END_DATE.Caption = "End Date";
             this.W_END_DATE.FieldName = "W_END_DATE";
             this.W_END_DATE.Name = "W_END_DATE";
             this.W_END_DATE.Visible = true;
@@ -1212,7 +1212,7 @@
             // 
             // W_HOUR_DURATION
             // 
-            this.W_HOUR_DURATION.Caption = "DURATION (H)";
+            this.W_HOUR_DURATION.Caption = "Duration (H)";
             this.W_HOUR_DURATION.FieldName = "W_HOUR_DURATION";
             this.W_HOUR_DURATION.Name = "W_HOUR_DURATION";
             this.W_HOUR_DURATION.Visible = true;
@@ -1227,7 +1227,7 @@
             // 
             // W_STATUS
             // 
-            this.W_STATUS.Caption = "STATUS";
+            this.W_STATUS.Caption = "Status";
             this.W_STATUS.FieldName = "W_STATUS";
             this.W_STATUS.Name = "W_STATUS";
             this.W_STATUS.Visible = true;
@@ -1257,7 +1257,7 @@
             this.tbLayout.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 71F));
             this.tbLayout.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 220F));
             this.tbLayout.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 12F));
-            this.tbLayout.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 98F));
+            this.tbLayout.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 103F));
             this.tbLayout.Controls.Add(this.lblRStandbyT, 5, 2);
             this.tbLayout.Controls.Add(this.lblRBookedT, 5, 1);
             this.tbLayout.Controls.Add(this.lblcolon5, 4, 2);
@@ -1291,7 +1291,7 @@
             // lblRStandbyT
             // 
             this.lblRStandbyT.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblRStandbyT.Location = new System.Drawing.Point(537, 42);
+            this.lblRStandbyT.Location = new System.Drawing.Point(532, 42);
             this.lblRStandbyT.Margin = new System.Windows.Forms.Padding(0);
             this.lblRStandbyT.Name = "lblRStandbyT";
             this.lblRStandbyT.Size = new System.Drawing.Size(6, 13);
@@ -1301,7 +1301,7 @@
             // lblRBookedT
             // 
             this.lblRBookedT.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblRBookedT.Location = new System.Drawing.Point(537, 22);
+            this.lblRBookedT.Location = new System.Drawing.Point(532, 22);
             this.lblRBookedT.Margin = new System.Windows.Forms.Padding(0);
             this.lblRBookedT.Name = "lblRBookedT";
             this.lblRBookedT.Size = new System.Drawing.Size(6, 13);
@@ -1311,7 +1311,7 @@
             // lblcolon5
             // 
             this.lblcolon5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblcolon5.Location = new System.Drawing.Point(525, 42);
+            this.lblcolon5.Location = new System.Drawing.Point(520, 42);
             this.lblcolon5.Margin = new System.Windows.Forms.Padding(0);
             this.lblcolon5.Name = "lblcolon5";
             this.lblcolon5.Size = new System.Drawing.Size(4, 13);
@@ -1321,7 +1321,7 @@
             // lblStandbyT
             // 
             this.lblStandbyT.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblStandbyT.Location = new System.Drawing.Point(305, 42);
+            this.lblStandbyT.Location = new System.Drawing.Point(300, 42);
             this.lblStandbyT.Margin = new System.Windows.Forms.Padding(0);
             this.lblStandbyT.Name = "lblStandbyT";
             this.lblStandbyT.Size = new System.Drawing.Size(133, 13);
@@ -1331,7 +1331,7 @@
             // lblcolon4
             // 
             this.lblcolon4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblcolon4.Location = new System.Drawing.Point(525, 22);
+            this.lblcolon4.Location = new System.Drawing.Point(520, 22);
             this.lblcolon4.Margin = new System.Windows.Forms.Padding(0);
             this.lblcolon4.Name = "lblcolon4";
             this.lblcolon4.Size = new System.Drawing.Size(4, 13);
@@ -1341,7 +1341,7 @@
             // lblBookedT
             // 
             this.lblBookedT.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblBookedT.Location = new System.Drawing.Point(305, 22);
+            this.lblBookedT.Location = new System.Drawing.Point(300, 22);
             this.lblBookedT.Margin = new System.Windows.Forms.Padding(0);
             this.lblBookedT.Name = "lblBookedT";
             this.lblBookedT.Size = new System.Drawing.Size(128, 13);
@@ -1351,7 +1351,7 @@
             // lblcolon3
             // 
             this.lblcolon3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblcolon3.Location = new System.Drawing.Point(525, 0);
+            this.lblcolon3.Location = new System.Drawing.Point(520, 0);
             this.lblcolon3.Margin = new System.Windows.Forms.Padding(0);
             this.lblcolon3.Name = "lblcolon3";
             this.lblcolon3.Size = new System.Drawing.Size(4, 13);
@@ -1361,7 +1361,7 @@
             // lblRStandby
             // 
             this.lblRStandby.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblRStandby.Location = new System.Drawing.Point(234, 42);
+            this.lblRStandby.Location = new System.Drawing.Point(229, 42);
             this.lblRStandby.Margin = new System.Windows.Forms.Padding(0);
             this.lblRStandby.Name = "lblRStandby";
             this.lblRStandby.Size = new System.Drawing.Size(6, 13);
@@ -1371,7 +1371,7 @@
             // lblRBooked
             // 
             this.lblRBooked.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblRBooked.Location = new System.Drawing.Point(234, 22);
+            this.lblRBooked.Location = new System.Drawing.Point(229, 22);
             this.lblRBooked.Margin = new System.Windows.Forms.Padding(0);
             this.lblRBooked.Name = "lblRBooked";
             this.lblRBooked.Size = new System.Drawing.Size(6, 13);
@@ -1381,7 +1381,7 @@
             // lblcolon2
             // 
             this.lblcolon2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblcolon2.Location = new System.Drawing.Point(219, 42);
+            this.lblcolon2.Location = new System.Drawing.Point(214, 42);
             this.lblcolon2.Margin = new System.Windows.Forms.Padding(0);
             this.lblcolon2.Name = "lblcolon2";
             this.lblcolon2.Size = new System.Drawing.Size(4, 13);
@@ -1401,7 +1401,7 @@
             // lblcolon1
             // 
             this.lblcolon1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblcolon1.Location = new System.Drawing.Point(219, 22);
+            this.lblcolon1.Location = new System.Drawing.Point(214, 22);
             this.lblcolon1.Margin = new System.Windows.Forms.Padding(0);
             this.lblcolon1.Name = "lblcolon1";
             this.lblcolon1.Size = new System.Drawing.Size(4, 13);
@@ -1421,7 +1421,7 @@
             // lblcolon
             // 
             this.lblcolon.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblcolon.Location = new System.Drawing.Point(219, 0);
+            this.lblcolon.Location = new System.Drawing.Point(214, 0);
             this.lblcolon.Margin = new System.Windows.Forms.Padding(0);
             this.lblcolon.Name = "lblcolon";
             this.lblcolon.Size = new System.Drawing.Size(4, 13);
@@ -1441,7 +1441,7 @@
             // lblRToday
             // 
             this.lblRToday.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblRToday.Location = new System.Drawing.Point(234, 0);
+            this.lblRToday.Location = new System.Drawing.Point(229, 0);
             this.lblRToday.Margin = new System.Windows.Forms.Padding(0);
             this.lblRToday.Name = "lblRToday";
             this.lblRToday.Size = new System.Drawing.Size(6, 13);
@@ -1451,7 +1451,7 @@
             // lblTomorrow
             // 
             this.lblTomorrow.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTomorrow.Location = new System.Drawing.Point(305, 0);
+            this.lblTomorrow.Location = new System.Drawing.Point(300, 0);
             this.lblTomorrow.Margin = new System.Windows.Forms.Padding(0);
             this.lblTomorrow.Name = "lblTomorrow";
             this.lblTomorrow.Size = new System.Drawing.Size(131, 13);
@@ -1461,7 +1461,7 @@
             // lblRTomorrow
             // 
             this.lblRTomorrow.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblRTomorrow.Location = new System.Drawing.Point(537, 0);
+            this.lblRTomorrow.Location = new System.Drawing.Point(532, 0);
             this.lblRTomorrow.Margin = new System.Windows.Forms.Padding(0);
             this.lblRTomorrow.Name = "lblRTomorrow";
             this.lblRTomorrow.Size = new System.Drawing.Size(6, 13);

@@ -9,6 +9,8 @@ using System.Windows.Forms;
 using DevExpress.XtraEditors.Controls;
 using System.Globalization;
 using System.Threading;
+using System.Drawing.Imaging;
+
 
 namespace CSI.MES.P
 {
@@ -334,6 +336,63 @@ namespace CSI.MES.P
             catch (Exception ex)
             {
                 MessageBox.Show("txtEmpid_EditValueChanged " + ex.Message);
+            }
+        }
+
+        private Image AdjustBrightness(Image image, float brightness)
+        {
+            Bitmap tempBitmap = new Bitmap(image.Width, image.Height);
+            try
+            {
+
+                using (Graphics g = Graphics.FromImage(tempBitmap))
+                {
+                    float[][] ptsArray = {
+                    new float[] { brightness, 0, 0, 0, 0 }, // Red
+                    new float[] { 0, brightness, 0, 0, 0 }, // Green
+                    new float[] { 0, 0, brightness, 0, 0 }, // Blue
+                    new float[] { 0, 0, 0, 1, 0 }, // Alpha
+                    new float[] { 0, 0, 0, 0, 1 } // W Offset
+                    };
+
+                    ColorMatrix clrMatrix = new ColorMatrix(ptsArray);
+                    ImageAttributes imgAttributes = new ImageAttributes();
+                    imgAttributes.SetColorMatrix(clrMatrix, ColorMatrixFlag.Default, ColorAdjustType.Bitmap);
+
+                    g.DrawImage(image, new Rectangle(0, 0, image.Width, image.Height),
+                                0, 0, image.Width, image.Height, GraphicsUnit.Pixel, imgAttributes);
+                }
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("AdjustBrightness " + ex.Message);
+            }
+
+            return tempBitmap;
+        }
+        
+        private void pctSave_MouseHover(object sender, EventArgs e)
+        {
+            try
+            {
+                pctSave.Image = AdjustBrightness(Properties.Resources.save, 0.5f);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("pctSave_MouseHover " + ex.Message);
+            }
+        }
+
+        private void pctSave_MouseLeave(object sender, EventArgs e)
+        {
+            try
+            {
+                pctSave.Image = AdjustBrightness(Properties.Resources.save, 1f);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("pctSave_MouseLeave " + ex.Message);
             }
         }
 

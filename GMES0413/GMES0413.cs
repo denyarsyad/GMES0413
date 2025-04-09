@@ -79,49 +79,75 @@ namespace CSI.MES.P
             InitControls(grdWaitingList);
 
             #region [DESIGN MAIN REGISTER]
-            lblDate.Font = new Font("Calibri", 12, FontStyle.Bold);
-            lblTo.Font = new Font("Calibri", 12, FontStyle.Bold);
-            lblStatus.Font = new Font("Calibri", 12, FontStyle.Bold);
-            lblMinutes.Font = new Font("Calibri", 12, FontStyle.Bold);
+            lblDate.Font = new Font("Calibri", 12, FontStyle.Regular);
+            lblTo.Font = new Font("Calibri", 12, FontStyle.Regular);
+            lblStatus.Font = new Font("Calibri", 12, FontStyle.Regular);
+            lblMinutes.Font = new Font("Calibri", 12, FontStyle.Regular);
 
-            dtEFrom.Font = new Font("Calibri", 12, FontStyle.Bold);
-            dtETo.Font = new Font("Calibri", 12, FontStyle.Bold);
-            cboStatus.Font = new Font("Calibri", 12, FontStyle.Bold);
-            txtInterval.Font = new Font("Calibri", 12, FontStyle.Bold);
-            chkAutoRf.Font = new Font("Calibri", 12, FontStyle.Bold);
+            dtEFrom.Font = new Font("Calibri", 12, FontStyle.Regular);
+            dtETo.Font = new Font("Calibri", 12, FontStyle.Regular);
+            cboStatus.Font = new Font("Calibri", 12, FontStyle.Regular);
+            txtInterval.Font = new Font("Calibri", 12, FontStyle.Regular);
+            chkAutoRf.Font = new Font("Calibri", 12, FontStyle.Regular);
 
             gvwMain.OptionsView.ShowGroupPanel = false;
             //gvwMain.ColumnPanelRowHeight = 40;
             gvwMain.OptionsView.ShowColumnHeaders = false;
             gvwMain.BandPanelRowHeight = 40;
 
-            gvwMain.Bands[5].Children[0].AppearanceHeader.Font = new Font("Calibri", 12, FontStyle.Bold);
+            gvwMain.Bands[5].Children[0].AppearanceHeader.Font = new Font("Calibri", 12, FontStyle.Regular);
             gvwMain.Bands[5].Children[0].AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
             gvwMain.Bands[5].Children[0].Width = 50;
-            gvwMain.Bands[5].Children[1].AppearanceHeader.Font = new Font("Calibri", 12, FontStyle.Bold);
+            gvwMain.Bands[5].Children[1].AppearanceHeader.Font = new Font("Calibri", 12, FontStyle.Regular);
             gvwMain.Bands[5].Children[1].AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
             gvwMain.Bands[5].Children[1].Width = 50;
 
 
-            gvwMain.Bands[6].Children[0].AppearanceHeader.Font = new Font("Calibri", 12, FontStyle.Bold);
+            gvwMain.Bands[6].Children[0].AppearanceHeader.Font = new Font("Calibri", 12, FontStyle.Regular);
             gvwMain.Bands[6].Children[0].AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
             gvwMain.Bands[6].Children[0].Width = 50;
-            gvwMain.Bands[6].Children[1].AppearanceHeader.Font = new Font("Calibri", 12, FontStyle.Bold);
+            gvwMain.Bands[6].Children[1].AppearanceHeader.Font = new Font("Calibri", 12, FontStyle.Regular);
             gvwMain.Bands[6].Children[1].AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
             gvwMain.Bands[6].Children[1].Width = 50;
-            gvwMain.Bands[6].Children[2].AppearanceHeader.Font = new Font("Calibri", 12, FontStyle.Bold);
+            gvwMain.Bands[6].Children[2].AppearanceHeader.Font = new Font("Calibri", 12, FontStyle.Regular);
             gvwMain.Bands[6].Children[2].AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
             gvwMain.Bands[6].Children[2].Width = 50;
+
+            //New One
+            gvwMain.Bands[0].Caption = "Reg Id";
+            gvwMain.Bands[1].Caption = "Reg Date";
+            gvwMain.Bands[2].Caption = "Reg Time";
+            gvwMain.Bands[3].Caption = "User Name";
+            gvwMain.Bands[4].Caption = "Dept";
+            gvwMain.Bands[5].Caption = "Driver";
+            gvwMain.Bands[6].Caption = "Car Detail";
+            gvwMain.Bands[7].Caption = "Seq";
+            gvwMain.Bands[8].Caption = "Destination";
+            gvwMain.Bands[9].Caption = "Passengers";
+            gvwMain.Bands[10].Caption = "Purpose";
+            gvwMain.Bands[11].Caption = "Start Date";
+            gvwMain.Bands[12].Caption = "End Date";
+            gvwMain.Bands[13].Caption = "Duration (H)";
+            gvwMain.Bands[14].Caption = "Status";
+
+            gvwMain.Bands[5].Children[0].Caption = "Name";
+            gvwMain.Bands[5].Children[1].Caption = "Contact";
+
+            gvwMain.Bands[6].Children[0].Caption = "Name";
+            gvwMain.Bands[6].Children[1].Caption = "Serial No";
+            gvwMain.Bands[6].Children[2].Caption = "Color";
 
             for (int i = 0; i < gvwMain.Columns.Count; i++)
             {
                 if (i < 15)
                 {
                     gvwMain.Bands[i].AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-                    gvwMain.Bands[i].AppearanceHeader.Font = new Font("Calibri", 12, FontStyle.Bold);
+                    gvwMain.Bands[i].AppearanceHeader.Font = new Font("Calibri", 12, FontStyle.Regular);
                     gvwMain.Bands[i].AppearanceHeader.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
+
                 }
             }
+
 
             pctRed.BackColor = ColorTranslator.FromHtml("#F47174");
             pctRed.Image = new Bitmap(1, 1);
@@ -139,40 +165,60 @@ namespace CSI.MES.P
             lblGrey.Font = new Font("Calibri", 10, FontStyle.Regular);
             lblGrey.Text = "Waktu Keberangkatan Sudah Kadaluwarsa";
             lblGreen.Font = new Font("Calibri", 10, FontStyle.Regular);
-            lblGreen.Text = "Finished/GA Sudah Input"; 
+            lblGreen.Text = "Finished/GA Sudah Input";
 
             #endregion
 
             #region [DESIGN WAITING LIST]
 
-            lblDt.Font = new Font("Calibri", 12, FontStyle.Bold);
-            lblDash.Font = new Font("Calibri", 12, FontStyle.Bold);
-            lblMnt.Font = new Font("Calibri", 12, FontStyle.Bold);
+            lblDt.Font = new Font("Calibri", 12, FontStyle.Regular);
+            lblDash.Font = new Font("Calibri", 12, FontStyle.Regular);
+            lblMnt.Font = new Font("Calibri", 12, FontStyle.Regular);
 
-            dtFrom.Font = new Font("Calibri", 12, FontStyle.Bold);
-            dtTo.Font = new Font("Calibri", 12, FontStyle.Bold);
-            txtMnt.Font = new Font("Calibri", 12, FontStyle.Bold);
-            chkARef.Font = new Font("Calibri", 12, FontStyle.Bold);
+            dtFrom.Font = new Font("Calibri", 12, FontStyle.Regular);
+            dtTo.Font = new Font("Calibri", 12, FontStyle.Regular);
+            txtMnt.Font = new Font("Calibri", 12, FontStyle.Regular);
+            chkARef.Font = new Font("Calibri", 12, FontStyle.Regular);
 
-            lblToday.Font = new Font("Calibri", 12, FontStyle.Bold);
-            lblBooked.Font = new Font("Calibri", 12, FontStyle.Bold);
-            lblStandby.Font = new Font("Calibri", 12, FontStyle.Bold);
-            lblcolon.Font = new Font("Calibri", 12, FontStyle.Bold);
-            lblcolon1.Font = new Font("Calibri", 12, FontStyle.Bold);
-            lblcolon2.Font = new Font("Calibri", 12, FontStyle.Bold);
-            lblRToday.Font = new Font("Calibri", 12, FontStyle.Bold);
-            lblRBooked.Font = new Font("Calibri", 12, FontStyle.Bold);
-            lblRStandby.Font = new Font("Calibri", 12, FontStyle.Bold);
+            lblToday.Font = new Font("Times New Roman", 12, FontStyle.Italic);
+            lblToday.ForeColor = Color.Yellow;
+            lblBooked.Font = new Font("Times New Roman", 12, FontStyle.Italic);
+            lblBooked.ForeColor = Color.Yellow;
+            lblStandby.Font = new Font("Times New Roman", 12, FontStyle.Italic);
+            lblStandby.ForeColor = Color.Yellow;
+            lblcolon.Font = new Font("Times New Roman", 12, FontStyle.Italic);
+            lblcolon.ForeColor = Color.Yellow;
+            lblcolon1.Font = new Font("Times New Roman", 12, FontStyle.Italic);
+            lblcolon1.ForeColor = Color.Yellow;
+            lblcolon2.Font = new Font("Times New Roman", 12, FontStyle.Italic);
+            lblcolon2.ForeColor = Color.Yellow;
+            lblRToday.Font = new Font("Times New Roman", 12, FontStyle.Italic);
+            lblRToday.ForeColor = Color.Yellow;
+            lblRBooked.Font = new Font("Times New Roman", 12, FontStyle.Italic);
+            lblRBooked.ForeColor = Color.Yellow;
+            lblRStandby.Font = new Font("Times New Roman", 12, FontStyle.Italic);
+            lblRStandby.ForeColor = Color.Yellow;
 
-            lblTomorrow.Font = new Font("Calibri", 12, FontStyle.Bold);
-            lblBookedT.Font = new Font("Calibri", 12, FontStyle.Bold);
-            lblStandbyT.Font = new Font("Calibri", 12, FontStyle.Bold);
-            lblcolon3.Font = new Font("Calibri", 12, FontStyle.Bold);
-            lblcolon4.Font = new Font("Calibri", 12, FontStyle.Bold);
-            lblcolon5.Font = new Font("Calibri", 12, FontStyle.Bold);
-            lblRTomorrow.Font = new Font("Calibri", 12, FontStyle.Bold);
-            lblRBookedT.Font = new Font("Calibri", 12, FontStyle.Bold);
-            lblRStandbyT.Font = new Font("Calibri", 12, FontStyle.Bold);
+            lblTomorrow.Font = new Font("Times New Roman", 12, FontStyle.Italic);
+            lblTomorrow.ForeColor = Color.Yellow;
+            lblBookedT.Font = new Font("Times New Roman", 12, FontStyle.Italic);
+            lblBookedT.ForeColor = Color.Yellow;
+            lblStandbyT.Font = new Font("Times New Roman", 12, FontStyle.Italic);
+            lblStandbyT.ForeColor = Color.Yellow;
+            lblcolon3.Font = new Font("Times New Roman", 12, FontStyle.Italic);
+            lblcolon3.ForeColor = Color.Yellow;
+            lblcolon4.Font = new Font("Times New Roman", 12, FontStyle.Italic);
+            lblcolon4.ForeColor = Color.Yellow;
+            lblcolon5.Font = new Font("Times New Roman", 12, FontStyle.Italic);
+            lblcolon5.ForeColor = Color.Yellow;
+            lblRTomorrow.Font = new Font("Times New Roman", 12, FontStyle.Italic);
+            lblRTomorrow.ForeColor = Color.Yellow;
+            lblRBookedT.Font = new Font("Times New Roman", 12, FontStyle.Italic);
+            lblRBookedT.ForeColor = Color.Yellow;
+            lblRStandbyT.Font = new Font("Times New Roman", 12, FontStyle.Italic);
+            lblRStandbyT.ForeColor = Color.Yellow;
+
+            tbLayout.BackColor = Color.Black;
 
 
             gvwWaitingList.OptionsView.ShowGroupPanel = false;
@@ -180,21 +226,21 @@ namespace CSI.MES.P
             gvwWaitingList.OptionsView.ShowColumnHeaders = false;
             gvwWaitingList.BandPanelRowHeight = 40;
 
-            gvwWaitingList.Bands[5].Children[0].AppearanceHeader.Font = new Font("Calibri", 12, FontStyle.Bold);
+            gvwWaitingList.Bands[5].Children[0].AppearanceHeader.Font = new Font("Calibri", 12, FontStyle.Regular);
             gvwWaitingList.Bands[5].Children[0].AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
             gvwWaitingList.Bands[5].Children[0].Width = 50;
-            gvwWaitingList.Bands[5].Children[1].AppearanceHeader.Font = new Font("Calibri", 12, FontStyle.Bold);
+            gvwWaitingList.Bands[5].Children[1].AppearanceHeader.Font = new Font("Calibri", 12, FontStyle.Regular);
             gvwWaitingList.Bands[5].Children[1].AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
             gvwWaitingList.Bands[5].Children[1].Width = 50;
 
 
-            gvwWaitingList.Bands[6].Children[0].AppearanceHeader.Font = new Font("Calibri", 12, FontStyle.Bold);
+            gvwWaitingList.Bands[6].Children[0].AppearanceHeader.Font = new Font("Calibri", 12, FontStyle.Regular);
             gvwWaitingList.Bands[6].Children[0].AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
             gvwWaitingList.Bands[6].Children[0].Width = 50;
-            gvwWaitingList.Bands[6].Children[1].AppearanceHeader.Font = new Font("Calibri", 12, FontStyle.Bold);
+            gvwWaitingList.Bands[6].Children[1].AppearanceHeader.Font = new Font("Calibri", 12, FontStyle.Regular);
             gvwWaitingList.Bands[6].Children[1].AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
             gvwWaitingList.Bands[6].Children[1].Width = 50;
-            gvwWaitingList.Bands[6].Children[2].AppearanceHeader.Font = new Font("Calibri", 12, FontStyle.Bold);
+            gvwWaitingList.Bands[6].Children[2].AppearanceHeader.Font = new Font("Calibri", 12, FontStyle.Regular);
             gvwWaitingList.Bands[6].Children[2].AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
             gvwWaitingList.Bands[6].Children[2].Width = 50;
 
@@ -203,10 +249,34 @@ namespace CSI.MES.P
                 if (i < 15)
                 {
                     gvwWaitingList.Bands[i].AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-                    gvwWaitingList.Bands[i].AppearanceHeader.Font = new Font("Calibri", 12, FontStyle.Bold);
+                    gvwWaitingList.Bands[i].AppearanceHeader.Font = new Font("Calibri", 12, FontStyle.Regular);
                     gvwWaitingList.Bands[i].AppearanceHeader.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
                 }
             }
+
+            //New One
+            gvwWaitingList.Bands[0].Caption = "Reg Id";
+            gvwWaitingList.Bands[1].Caption = "Reg Date";
+            gvwWaitingList.Bands[2].Caption = "Reg Time";
+            gvwWaitingList.Bands[3].Caption = "User Name";
+            gvwWaitingList.Bands[4].Caption = "Dept";
+            gvwWaitingList.Bands[5].Caption = "Driver";
+            gvwWaitingList.Bands[6].Caption = "Car Detail";
+            gvwWaitingList.Bands[7].Caption = "Seq";
+            gvwWaitingList.Bands[8].Caption = "Destination";
+            gvwWaitingList.Bands[9].Caption = "Passengers";
+            gvwWaitingList.Bands[10].Caption = "Purpose";
+            gvwWaitingList.Bands[11].Caption = "Start Date";
+            gvwWaitingList.Bands[12].Caption = "End Date";
+            gvwWaitingList.Bands[13].Caption = "Duration (H)";
+            gvwWaitingList.Bands[14].Caption = "Status";
+
+            gvwWaitingList.Bands[5].Children[0].Caption = "Name";
+            gvwWaitingList.Bands[5].Children[1].Caption = "Contact";
+
+            gvwWaitingList.Bands[6].Children[0].Caption = "Name";
+            gvwWaitingList.Bands[6].Children[1].Caption = "Serial No";
+            gvwWaitingList.Bands[6].Children[2].Caption = "Color";
 
             #endregion
 
@@ -688,7 +758,7 @@ namespace CSI.MES.P
                                                       "",
                                                       "",
                                                       "",
-                                                      "",
+                                                      "Y", //EXTRA4_FLD --> MAIL_YN MENGGUNAKAN SERVICE KIRIM EMAIL (SUPPORT WEB BASE UNTUK KIRIM EMAIL)
                                                       "",
                                                       SessionInfo.UserID,   //CREATOR
                                                       DateTime.Now.ToString("yyyyMMdd HHmmss"), //CREATED_DT
@@ -719,7 +789,8 @@ namespace CSI.MES.P
                                 //VALIDASI KEBERANGKATAN SABTU
                                 if (depDayNum == 7) //JIKA PEMESANAN UNTUK HARI SABTU (7)
                                 {
-                                    if (regDayNum < 6) //JIKA REGISTRASI DILAKUKAN SEBELUM HARI JUMAT (6), KAMIS ATAU SEBELUMNYA (< 6)
+                                    //if (regDayNum < 6) //JIKA REGISTRASI DILAKUKAN SEBELUM HARI JUMAT (6), KAMIS ATAU SEBELUMNYA (< 6)
+                                    if (fnValidation("VAL01", ""))
                                     {
                                         MessageBoxW("Pemesanan untuk hari Sabtu hanya bisa dilakukan mulai Jumat pukul 00:01 AM hingga Sabtu pukul 08:59 AM.", IconType.Error);
                                         pbProgressHide();
@@ -727,7 +798,8 @@ namespace CSI.MES.P
                                     }
                                     else if (regDayNum == 6) //JIKA REGISTRASI DILAKUKAN PADA HARI JUMAT (6)
                                     {
-                                        if (regTime < TimeSpan.ParseExact("0001", "hhmm", CultureInfo.InvariantCulture)) //JIKA REGISTRASI SEBELUM PUKUL 00:01 AM
+                                        //if (regTime < TimeSpan.ParseExact("0001", "hhmm", CultureInfo.InvariantCulture)) //JIKA REGISTRASI SEBELUM PUKUL 00:01 AM
+                                        if (fnValidation("VAL02", ""))
                                         {
                                             MessageBoxW("Pemesanan untuk hari Sabtu hanya bisa dilakukan mulai Jumat pukul 00:01 AM hingga Sabtu pukul 08:59 AM.", IconType.Error);
                                             pbProgressHide();
@@ -736,14 +808,16 @@ namespace CSI.MES.P
                                     }
                                     else if (regDayNum == 7) //JIKA REGISTRASI DI LAKUKAN PADA HARI SABTU (7) (BUKAN DI MINGGU DEPAN)
                                     {
-                                        if ((departureDt - regDt).TotalDays > 6)
+                                        //if ((departureDt - regDt).TotalDays > 6)
+                                        if (fnValidation("VAL03", departureDt.Date.ToString("yyyyMMdd")))
                                         {
                                             MessageBoxW("Pemesanan untuk hari Sabtu hanya bisa dilakukan mulai Jumat sebelum hari keberangkatan pukul 00:01 AM hingga hari keberangkatan pukul 08:59 AM.", IconType.Error);
                                             pbProgressHide();
                                             return isSucced = false;
                                         }
 
-                                        if (regTime >= TimeSpan.ParseExact("0900", "hhmm", CultureInfo.InvariantCulture)) //JIKA REGISTRASI SETELAH PUKUL 09:00 AM
+                                        //if (regTime >= TimeSpan.ParseExact("0900", "hhmm", CultureInfo.InvariantCulture)) //JIKA REGISTRASI SETELAH PUKUL 09:00 AM
+                                        if (fnValidation("VAL04", ""))
                                         {
                                             MessageBoxW("Pemesanan untuk hari Sabtu harus sebelum jam 09:00.", IconType.Error);
                                             pbProgressHide();
@@ -1910,7 +1984,7 @@ namespace CSI.MES.P
                     if (i < 15)
                     {
                         gvwMain.Bands[i].AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-                        gvwMain.Bands[i].AppearanceHeader.Font = new Font("Calibri", 12, FontStyle.Bold);
+                        gvwMain.Bands[i].AppearanceHeader.Font = new Font("Calibri", 12, FontStyle.Regular);
                         gvwMain.Bands[i].AppearanceHeader.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
                     }
 
@@ -1960,7 +2034,7 @@ namespace CSI.MES.P
                     if (i < 15)
                     {
                         gvwWaitingList.Bands[i].AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-                        gvwWaitingList.Bands[i].AppearanceHeader.Font = new Font("Calibri", 12, FontStyle.Bold);
+                        gvwWaitingList.Bands[i].AppearanceHeader.Font = new Font("Calibri", 12, FontStyle.Regular);
                         gvwWaitingList.Bands[i].AppearanceHeader.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
                     }
 
@@ -3007,6 +3081,36 @@ namespace CSI.MES.P
             {
                 return null;
             }
+        }
+
+        private bool fnValidation(string q1, string q2)
+        {
+            bool isValid = false;
+            try
+            {
+                SP_GMES0413 cProc = new SP_GMES0413();
+                DataTable dtData = null;
+
+                dtData = cProc.SetParamData(dtData, "VALIDATION", q1, q2);
+                ResultSet rs = CommonCallQuery(dtData, cProc.ProcName, cProc.GetParamInfo(), false, 90000, "", true);
+
+                if (rs != null && rs.ResultDataSet.Tables.Count > 0)
+                {
+                    DataTable dt = rs.ResultDataSet.Tables[0];
+                    if (dt.Rows.Count > 0)
+                    {
+                        if (dt.Rows[0][0].ToString() == "1")
+                        {
+                            isValid = true;
+                        }
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBoxW("fnValidation: " + ex.Message);
+            }
+            return isValid;
         }
     }
 }
